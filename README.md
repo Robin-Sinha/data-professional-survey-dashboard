@@ -2,55 +2,52 @@
 
 ## Overview
 
-This project is an interactive Power BI dashboard built using real survey data collected from data professionals across different countries.
+This project is a Power BI dashboard built using a real survey dataset collected from data professionals.
 
-The goal of the project was to explore salary trends, job roles, programming language preferences and career-related insights while strengthening my Power BI skills through hands-on practice.
+The goal of the project was to clean the data, create meaningful visualisations and generate insights about salaries, job roles, programming languages and career satisfaction.
+
+This project was completed as a guided project by following Alex The Analyst's Power BI Tutorial Series.
 
 ## Tools Used
 
 * Power BI Desktop
 * Power Query
-* Data Modelling
 * Data Visualisation
 
 ## Data Preparation
 
-The dataset was cleaned and transformed in Power Query before building the dashboard. Key steps included:
+The raw Excel dataset was imported into Power BI and transformed using Power Query.
+
+Some of the key transformations included:
 
 * Removing unnecessary columns
-* Standardising job title categories
-* Cleaning programming language responses
-* Converting salary ranges into average numerical values
-* Simplifying country and industry categories
-* Correcting data types for analysis
+* Splitting job title values to simplify categories
+* Cleaning favourite programming language responses
+* Converting salary ranges into average salary values
+* Using Replace Values to clean text fields
+* Creating a custom column to calculate average salary
+* Changing data types where required
+* Simplifying country data for analysis
 
-## Dashboard Highlights
+## Dashboard Visualisations
 
-The dashboard includes:
-
-* Total Survey Respondents
-* Average Age of Respondents
-* Average Salary by Job Title
-* Favourite Programming Languages
-* Country-wise Respondent Distribution
-* Salary Satisfaction Score
-* Work-Life Balance Satisfaction Score
-* Difficulty of Breaking into Data Careers
-* Average Salary by Gender
+* Card: Total Survey Takers
+* Card: Average Age of Survey Takers
+* Stacked Bar Chart: Average Salary by Job Title
+* Stacked Column Chart: Favourite Programming Language
+* Treemap: Survey Takers by Country
+* Gauge Chart: Happiness with Work-Life Balance
+* Gauge Chart: Happiness with Salary
+* Donut Chart: Average Salary by Gender
 
 ## Key Insights
 
-* Data Scientists reported the highest average salaries among survey participants.
-* Python emerged as the most popular programming language.
-* Salary trends varied across countries and job roles.
-* Work-life balance satisfaction was generally higher than salary satisfaction.
-* Most respondents found breaking into the data field moderately challenging.
+* Data Scientists reported the highest average salaries.
+* Python was the most popular programming language.
+* Salary levels varied across different countries and job roles.
+* Work-life balance satisfaction was higher than salary satisfaction.
+* The survey showed a balanced mix of professionals from multiple countries.
 
-## What I Learned
+## Learning Outcomes
 
-This project helped me gain practical experience with data cleaning, Power Query transformations, dashboard design, visualisation best practices and turning raw data into meaningful insights.
-
-## Project Type
-
-**Guided Project** – This dashboard was created by following Alex The Analyst's Power BI Tutorial Series. I recreated the project to practise Power BI fundamentals and improve my dashboard-building skills using a real-world dataset.
-
+Through this project, I practised data cleaning in Power Query, creating custom columns, working with different chart types, applying themes and building an interactive dashboard in Power BI.
